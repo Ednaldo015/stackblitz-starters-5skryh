@@ -1,0 +1,12 @@
+.cart-icon {
+  pointer-events: none;
+  vertical-align: sub;
+}
+
+.cart-icon-container {
+  display: flex;
+}
+
+.cart-number {
+  font-size: 0.75rem;
+}
