@@ -1,0 +1,79 @@
+@media screen and (min-width: 1024px) {
+  .loja-content-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.loja-container {
+  background: var(--primary);
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.loja-content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: "Norse-Bold";
+  text-align: center;
+}
+
+.loja-header {
+  font-family: "Norse-Bold";
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.loja-content {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+.item-header {
+  text-align: center;
+}
+.men-tee,
+.men-hoodie,
+.women-tee,
+.women-hoodie,
+.accessory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-family: "Norse";
+  font-weight: 900;
+  font-size: 1.2rem;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.men-tee:hover,
+.men-hoodie:hover,
+.women-tee:hover,
+.women-hoodie:hover,
+.accessory:hover {
+  transform: scale(1.025);
+  opacity: 0.9;
+}
+
+.item-image-container {
+  padding: 1rem;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.item-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
