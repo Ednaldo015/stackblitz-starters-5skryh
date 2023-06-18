@@ -1,0 +1,50 @@
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  justify-content: center;
+  align-items: center;
+}
+
+#quantity {
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+#quantity::-webkit-outer-spin-button,
+#quantity::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#quantity[type="number"] {
+  -moz-appearance: textfield;
+}
+.minus-input-plus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.minus-container,
+.plus-container {
+  display: flex;
+  cursor: pointer;
+}
+
+.minus,
+.plus {
+  width: 2em;
+  height: 2em;
+  pointer-events: none;
+}
